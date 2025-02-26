@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+.app-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Heading{
+    text-shadow: 5px 5px 5px red;
+}
+.image{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    padding: 5px;
+    box-shadow: 10px 10px 10px #000;
+}
+.input-label{
+    margin: 8px;
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+}
+input[type=text]{
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.crt-btn{
+    background-color: #0065f6;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.crt-btn:hover{
+    border-color: blue;
+    cursor: pointer;
+}
+.dwnl-btn{
+    background-color: #0065f6;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.dwnl-btn:hover{
+    border-color: blue;
+    cursor: pointer;
+}
